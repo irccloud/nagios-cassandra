@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='Check the free space of a Cassandr
 
 parser.add_argument('-n', metavar='CLUSTER', required=True)
 parser.add_argument('-o', metavar='OPSCENTER-URL', required=True)
-parser.add_argument('-w', metavar='WARN', type=int, default=80)
+parser.add_argument('-w', metavar='WARN', type=int, default=70)
 parser.add_argument('-c', metavar='CRIT', type=int, default=90)
 
 args = parser.parse_args()
